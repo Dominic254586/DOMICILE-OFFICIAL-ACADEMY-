@@ -1,0 +1,159 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domicile Dominini Football Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Domicile Dominini Football Academy</h1>
+    <p>Nairobi's Home of Future Champions</p>
+  </header>
+
+  <nav>
+    <a href="#register">Register</a>
+    <a href="#players">Players</a>
+    <a href="#routine">Routine</a>
+    <a href="#matches">Matches</a>
+    <a href="#legends">Legends</a>
+  </nav>
+
+  <section id="register">
+    <h2>Join the Academy</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required><br><br>
+      <input type="email" placeholder="Email" required><br><br>
+      <input type="number" placeholder="Age" required><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="players">
+    <h2>Our Players</h2>
+    <ul>
+      <li>James Otieno - Midfielder</li>
+      <li>Brian Kiptoo - Goalkeeper</li>
+      <!-- Add more -->
+    </ul>
+  </section>
+
+  <section id="routine">
+    <h2>Training Routine</h2>
+    <ul>
+      <li>Monday - Fitness & Drills</li>
+      <li>Tuesday - Ball Control</li>
+      <li>Wednesday - Strategy</li>
+      <li>Friday - Matches</li>
+    </ul>
+  </section>
+
+  <section id="matches">
+    <h2>Match Results & Points</h2>
+    <table>
+      <tr>
+        <th>Match</th>
+        <th>Result</th>
+        <th>Points</th>
+      </tr>
+      <tr>
+        <td>Vs Stingers FC</td>
+        <td>2 - 1</td>
+        <td>3</td>
+      </tr>
+      <!-- More -->
+    </table>
+  </section>
+
+  <section id="legends">
+    <h2>Legends of the Academy</h2>
+    <p>Meet past players who made it to the national league and beyond.</p>
+    <ul>
+      <li>Kevin Mutua – Harambee Stars</li>
+      <li>Eric Omondi – AFC Leopards</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Domicile Dominini Football Academy | Nairobi, Kenya</p>
+  </footer>
+</body>
+</html>
+style.css
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 15px;
+  background-color: #e0f7fa;
+  color: #333;
+}
+
+header {
+  background-color: #004d40;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #00796b;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-top: 30px;
+}
+
+h2 {
+  color: #00695c;
+}
+
+form input, form button {
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  max-width: 300px;
+}
+
+form button {
+  background-color: #004d40;
+  color: white;
+  border: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #004d40;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 15px;
+  background-color: #004d40;
+  color: white;
+}
